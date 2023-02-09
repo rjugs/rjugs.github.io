@@ -1,0 +1,190 @@
+
+  html {
+    font-family: "Georgia", serif;
+    height: 100%;
+    background-color: #ffe6f5;
+  }
+
+  #personalimg {
+    border-radius: 50%;
+    max-width: 60%;
+    height: auto;
+  }
+
+  #headerlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-top: 3px solid #f6378f;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  #main {
+    display:flex;
+    flex: 1;
+    border-top: none;
+    height: 85vh;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #left {
+    justify-content: end;
+    flex: 2;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    border-right: 1px solid lightgrey;
+  }
+
+  #right {
+    justify-content: space-around;
+    flex: 4;
+    text-align: left;
+  }
+
+
+  li {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .footer1 {
+    margin-bottom: 4px;
+    border-top: .5px solid lightgrey;
+    text-align: center;
+    height: 100%;
+    width: 100vw;
+    margin-top: auto;
+    box-shadow: 0px -15px 10px -15px rgb(245, 157, 220);
+    overflow: hidden
+
+  }
+  progress[value] {
+    width: 85%;
+    height: 25px;
+  }
+
+  #outside {
+    flex: 1.5;
+  }
+
+  #right-skills {
+    justify-content: space-between;
+    flex: 6;
+    text-align: left;
+  }
+  #barlabels {
+    padding: 10px;
+    text-align: left;
+    padding-left: 50px; 
+    font-size: 19px
+  }
+
+  table {
+    width: 100%;
+  }
+
+#mainheader {
+  padding-top: 10px;
+  font-size: 27px;
+  }
+
+
+#link {
+  text-decoration: none;
+  color: #ff9776;
+}
+
+#link:hover {
+text-shadow: 1px 1px 1px #f6378f
+}
+
+#current {
+  color: #f6378f;
+}
+
+.dates {
+text-align: right;
+}
+#bottomel {
+padding-bottom: 8%;
+}
+
+#topel {
+padding-top: 3%;
+}
+
+.tableheaders {
+font-size: 19px;
+}
+
+#interestlist {
+  flex: 1;
+  list-style: none;
+  border-top: none;
+  height: 85vh;
+}
+
+#interestlistel {
+text-align: left;
+padding-left: 1px;
+}
+
+.myemail{
+text-decoration: none;
+color: #f6378f;
+}
+
+.myemail:hover{
+  text-shadow: 1px 1px 1px rgba(241, 128, 177, 0.837);
+}
+
+#description {
+font-size: 20px;
+}
+
+#imgcaption {
+line-height: 35px;
+}
+
+#progresslist {
+  flex: 1;
+  list-style: none;
+  border-top: none;
+  height: 85vh;
+}
+@media (max-width: 720px) {
+  #main {
+    flex-direction: column;
+    height: 85vh;
+  }
+  
+  #left {
+    margin-left: 25vw;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    border-right: none;
+    justify-content: center;
+  }
+  #right {
+    align-items: center;
+    justify-content: space-around;
+    flex: 4;
+    text-align: left;
+    height: 70vh;
+  }
+  body {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer1{
+    margin:auto;
+  }
+
+}
